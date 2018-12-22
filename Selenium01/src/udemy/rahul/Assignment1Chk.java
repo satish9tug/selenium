@@ -73,7 +73,7 @@ public class Assignment1Chk {
 	@AfterTest
 	public void closeAllResource(){
 		
-		//driver.close();
+		driver.close();
 	}
 	}
 	
