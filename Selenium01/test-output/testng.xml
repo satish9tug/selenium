@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="satish2018">
+      
+         
+    <classes>
+      <!--  <class name="Satish2018.Auto1">
+          <methods>
+              <excluding name="gTest"/>
+          </methods>
+      </class>
+            -->
+    <class name="Satish2018.Auto2">
+        
+        <groups>
+           <run>
+               <include name="SmokeTest"/>
+            </run>
+       </groups>
+    </class>                     
+           
+    <class name="Satish2018.Auto1"/>
+      <groups>
+           <run>
+               <include name="SmokeTest"/>
+            </run>
+       </groups>
+    </classes>
+     
+    
+    </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

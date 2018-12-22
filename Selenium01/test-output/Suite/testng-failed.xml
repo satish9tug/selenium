@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="satish2018(failed)" parallel="none">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Satish2018.Auto1">
+        <methods>
+          <include name="dropdownTest"/>
+        </methods>
+      </class> <!-- Satish2018.Auto1 -->
+    </classes>
+  </test> <!-- satish2018(failed) -->
+</suite> <!-- Failed suite [Suite] -->
