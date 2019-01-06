@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Auto2 {
+public class TestNGroupsEx {
 
 	// static WebDriver driver;
 	@BeforeTest

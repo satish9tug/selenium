@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class Auto1 {
+public class TestNGEx2 {
 
 	static WebDriver driver;
 
